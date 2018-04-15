@@ -1,6 +1,15 @@
 # TravelBrite Reviews Microservice
+Worked on existing code base to scale their database structure to be able to query at avg 1.6ms reads per second. This is one microservice server meant to work in conjunction with other microservices in a proxy server. Proxy server found here: github.com/jqywang/TravelBrite-proxy-server
 
-Set up a reviews microservice for TravelBrite that can handle maximum requests per second at low latency during data load. Using React for front end, MongoDB as database, and Express and Node server.
+TravelBrite Tech Stack:
+  * Express.js
+  * React.js
+  * MongoDB
+  * Webpack
+  * New Relic
+  * Redis
+  * Artillery.io
+  * PostgreSQL (for comparison)
 
 ### Installing
 Have a node version greater than v7.6.0
@@ -30,13 +39,6 @@ npm start
 
  **Jeffrey Wang**
  
- _Bryan Duong for original front end code_
-
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Thank you to BoxLunch for the front end sector of this project
+This project is licensed under the MIT License 
